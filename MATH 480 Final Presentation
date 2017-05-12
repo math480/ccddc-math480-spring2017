@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1.5}
+
+\title{MATH 480 Final Presentations: LaPlace Transforms} 
+\author{Christian Dela Cruz }
+\date{May 12, 2017}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+For my final presentation of senior seminar, I decided research the topic of LaPlace Transforms. As a math major, one field of study I wish I learned more of is differential equations. I am an inspiring math teacher and I think learning differential equations helps a lot with teaching calculus, which is a math I love to tutor. However, I have not taken a differential equations course here at Manoa so I knew researching LaPlace Transforms would be quite a challenge. Fortunately, I was able to find several online resources that helped me learn the definition of LaPlace transforms, how to use them in initial value problems and the applications LaPlace transforms has on the real world.
+
+\section{Research}
+I had no prior knowledge of what LaPlace transforms were so a lot of research was needed up develop the basics. One resource I found to be very helpful in learning the definition of the LaPlace transform was Lamar University's Paul's Online Math Notes. I also have learned more material from Khan Academy and information about the history of the transform from Quora.
+
+
+\section{Definition}
+Before going into the definition of a LaPlace transform, it's best to go over the definition of what a piecewise continuous function is. If an interval can be split up into finitely many subintervals, on which there is a function that is continuous on each open subinterval and has a limit at each of its endpoints, then that said function is piecewise continuous on that said interval. With this being said, we can now introduce the definition of a LaPlace transform.
+
+\vspace{5mm} 
+
+If f(t) is a piecewise continuous then \mathcal L(f(t)) = F(s) = \int_{0}^{\infty} f(t)e^{-st}dt 
+
+\section{Examples}
+Along with the definition, I also provided several problems as examples to show how the LaPlace transform and its properties work. When computing a LaPlace transform we can see that it can get messy, as shown in the example: 
+
+\vspace{5mm} 
+
+Compute L(\sin(at)) = \frac{a}{s^{2}+a^{2}} 
+
+\vspace{5mm} 
+
+I also provided a table of LaPlace Transforms which make computing these transforms more into finding the formula.
+
+\vspace{5mm} 
+
+Examples also help with explaining the purpose and applications of LaPlace transforms such as using these transforms in Initial Value Problems. For example, we tried to solve for the initial value problem
+
+\vspace{5mm} 
+
+3f"(t)-8f'(t)+4f(t)=2t; f(0)=7, f'(0)=4
+
+\vspace{5mm} 
+
+which equals f(t) = 1 + \frac{1}{2}t-\frac{375}{24}e^{\frac{2t}{3}}+ \frac{173}{8} e^{2t}
+
+\section{Applications}
+The LaPlace transform's main purpose used to solve for initial value problems in linear ordinary. However, going into applications, the LaPlace transform does more than just help solve for initial value problems. This transform also applies to many physical sciences, particularly in Physics and Engineering. Many problems solving examples in engineering involve circuits, and use theories such as The Electric Circuit Theory. Problems like these are also initial value problems and use the LaPlace transform to solve them.
+
+\section{Conclusion}
+LaPlace transforms can prove to be a very difficult thing to compute, but once solve for, this transformed can be used to solve for very important problems. I have learned about LaPlace transforms a lot from my research and creating this presentation. I was quite unfamiliar with this topic and was glad that I was able to learn so much information from my research. I'm hoping that this research will better my understanding on the topic of differential equations and great interest into learning more about the project.
+
+\end{document}
